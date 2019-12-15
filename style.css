@@ -1,0 +1,249 @@
+﻿/*  Name: Sanjin Hadzimusic
+    Course: CS412 - Web Application Development
+    Assignment: Second CV progress
+    Due Date: 18.11.2019
+    Purpose: The purpose of this assignment is to gain a better understanding of basic CSS  */
+    
+    
+
+
+/* BACKGROUND */
+
+html, body { margin: 0; padding: 0; border: 0; 
+			background: transparent;
+			background-image:url('dark.png');
+			background-repeat:repeat;			
+			}
+			
+div, span, article, aside, footer, header, hgroup, nav, section,
+h1, h2, h3, h4, h5, h6, p, blockqoute, a, ol, ul, li,
+table, tr, th, td, tbody, tfoot, thead {
+	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	backgruond: transparent;
+}
+
+/*html, body {
+
+background-image:url('../images/dark.png');
+background-repeat:repeat;
+} */
+
+/* TEXT */
+
+h1, h2, h3, h4, h5, h6, p, li, blockqoute, td, th, a, caption, em, strong, strike {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight: normal;
+	font-title: normal;
+	line-height: 100%;
+	text-indent: 0;
+	text-decoration: none;
+	text-align: justify;
+	color:white;
+}
+
+/* HEADINGS */
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; color:iceblue; }
+
+h1 { font-size: 28px; } 
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+h4 { font-size: 14px; }
+h5 { font-size: 14px; }
+h6 { font-size: 14px; }
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { margin: 0; }
+
+
+/* Text Elements */
+
+p	{ color: white; font-size: 14px; line-height: 150%; }
+p .left { margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+p .right { margin: 1.5em 0 1.5em 1.5em; padding: 0; }
+
+a	{ } 
+a:link { color: #00f }
+a:visited { color: #0f0 }
+a:active { color: #000 }
+a:focus { color: #666 }
+a:hover { color: #f00 }
+
+blockquote	{ color:white; font-size:12px;}
+
+strong	{ font-weight: bold; }
+em		{ font-style: italic;}
+
+
+/* Lists */
+
+ul	{ }
+ol  { list-style-type: decimal;}
+
+ul li { color:white; font-size:14px;}
+ol li { color:white; font-size:14px;}
+
+dl { }
+dt { }
+dd { }
+
+/* Tables */
+
+
+table { width:100%;}
+
+
+tr { }
+.odd { background-color:inherit; }
+.even  { background-color:inherit; }
+
+th { font-weight: bold;}
+thead, th { }
+
+tbody {	}
+
+th, td, caption {	}
+caption {	}
+
+tfoot {	}
+.tfooter { text-align: center; font-style:italic; 
+}
+
+
+
+/* Position text in the middle of the page/image */
+.home {
+    background-color: rgba(255, 255, 255, 0.1); /*Color and opacity*/
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    border: 5px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:80%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+}
+
+.slideshow-container {
+	 position: absolute;
+    top: 150%;
+    
+    max-width: 90%;
+    padding: 20px;
+    text-align: center;
+    left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+
+.about {
+ position: absolute;
+    top: 300%;
+    
+    max-width: 90%;
+    padding: 20px;
+    text-align: center;
+    left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+
+
+
+
+/* Style of contact part */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid darkgray;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #2196F3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+/* Navigation bar links */
+.navbar a {
+    float: left;
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: #2196F3;
+}
+
+/* Style of input container */
+.navbar .login-container {
+    float: right;
+}
+
+/* Style of input field inside the navigation bar */
+.navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+}
+
+/* Style of button inside the input container */
+.navbar .login-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: darkgray;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+/*Footer*/
+
+#footer { clear:both; background-color:#000000; padding:10px 0;}
+#footer p { text-align:center; color:#ffffff;}
+
+
+
+
